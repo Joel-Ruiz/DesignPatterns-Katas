@@ -1,12 +1,7 @@
 package reto;
 
-// Importar java.util.Date para el campo expirationDate
 import java.util.Date; 
 
-/**
- * Clase que representa una notificación compleja con muchos parámetros opcionales.
- * Muestra el problema del Constructor Telescópico.
- */
 public class Notification {
     
     // Parámetros obligatorios

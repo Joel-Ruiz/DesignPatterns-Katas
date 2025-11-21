@@ -13,40 +13,26 @@ package reto;
 
 import java.util.Date; 
 
-/**
- * Clase que representa una notificación compleja con muchos parámetros opcionales.
- * Muestra el problema del Constructor Telescópico.
- */
 public class Notification {
     
-    // Parámetros obligatorios
     private String recipient;
     private String sender;
     private String title;
     private String body;
 
-    // Parámetros opcionales
     private String priority;
     private String attachment;
     private Date expirationDate;
     private boolean isHtml;
 
-    // --- CONSTRUCTORES TELESCÓPICOS (El problema) ---
-
-    // 1. Constructor básico
     public Notification(String recipient, String sender, String title, String body) {
         this(recipient, sender, title, body, null, null, null, false);
     }
-    
-    // 2. Constructor con prioridad
+
     public Notification(String recipient, String sender, String title, String body, String priority) {
         this(recipient, sender, title, body, priority, null, null, false);
     }
 
-    // ... y más constructores sobrecargados
-    // Se asume que el Constructor Maestro maneja la inicialización real
-
-    // 4. Constructor con todos los parámetros (Constructor Maestro)
     public Notification(String recipient, String sender, String title, String body, 
                         String priority, String attachment, Date expirationDate, boolean isHtml) {
         
@@ -64,7 +50,6 @@ public class Notification {
         this.isHtml = isHtml;
     }
 
-    // Método para simular el envío
     public void send() {
         // ... (Implementación del método send)
     }
@@ -90,16 +75,13 @@ public class Main {
         notifBasica.send();
 
         // 2. Notificación con prioridad y adjunto (Uso incómodo)
-        // Se debe recordar qué parámetro corresponde a qué posición (null, null, ...)
         Notification notifConAdjunto = new Notification(
             "admin@dominio.com",
             "alertas@app.com",
             "Alerta de Error Crítico",
             "Revisar el log de producción inmediatamente.",
-            "CRITICAL", // priority
-            "error.log"  // attachment
-            // El resto de parámetros (expirationDate, isHtml) deben omitirse
-            // o pasarse como null/false para usar el constructor adecuado.
+            "CRITICAL",
+            "error.log"
         );
         notifConAdjunto.send();
         
