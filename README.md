@@ -25,11 +25,11 @@ kata-name/
 
 ##  Katas Disponibles
 
-1. [Builder Pattern](#)
-2. [Decorator Pattern](#)
-3. [Composite Pattern](#)
-4. [State Pattern](#)
-5. [Template Method Pattern](#)
+1. [Builder Pattern](./builder/)
+2. [Decorator Pattern](./decorator/)
+3. [Composite Pattern](./composite/)
+4. [State Pattern](./state/)
+5. [Template Method Pattern](./template_method/)
 
 ## Cómo Usar Este Repositorio
 
@@ -47,4 +47,4 @@ kata-name/
 
 ## Basado En
 
-Este repositorio esta basado en el siguiente repositorio: (https://github.com/luisburgos/design_patterns_katas.git)
+Este repositorio esta basado en: (https://github.com/luisburgos/design_patterns_katas.git)

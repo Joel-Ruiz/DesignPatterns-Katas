@@ -2,7 +2,7 @@
 
 ## Contexto
 
-
+Estás desarrollando un sistema para construir diferentes tipos de mensajes de notificación (ej. Email, SMS, Push Notification) que se envían a los usuarios. El código actual utiliza el Constructor Telescópico; tiene múltiples constructores sobrecargados para manejar las diferentes combinaciones de campos opcionales, lo que resulta en un código difícil de leer, propenso a errores y complicado de mantener a medida que se añaden más opciones.
 
 ## El Patrón: Builder
 
@@ -39,9 +39,9 @@ Principios SOLID:
 
 ## Reto
 
-Para poner en práctica el patrón Adapter, consulta el [README del reto](./reto/) que contiene un ejercicio práctico.
+Para poner en práctica el patrón Builder, consulta el [README del reto](./reto/) que contiene un ejercicio práctico.
 
 ## Recursos Adicionales
 
-- [Refactoring Guru - Adapter Pattern](https://refactoring.guru/design-patterns/adapter)
-- [Source Making - Adapter Pattern](https://sourcemaking.com/design_patterns/adapter)
+- [Refactoring Guru - Builder Pattern](https://refactoring.guru/design-patterns/builder)
+- [Source Making - Builder Pattern](https://sourcemaking.com/design_patterns/builder)
