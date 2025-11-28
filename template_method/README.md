@@ -42,7 +42,7 @@ Principios SOLID:
 
 ## Reto
 
-Para poner en práctica el patrón Composite, consulta el [README del reto](./reto/) que contiene un ejercicio práctico.
+Para poner en práctica el patrón Composite, consulta el [README del reto](./challenge/) que contiene un ejercicio práctico.
 
 ## Recursos Adicionales
 
