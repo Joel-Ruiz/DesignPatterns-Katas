@@ -8,6 +8,6 @@ public class WhipCoffee extends Coffee {
 
     @Override
     public double getCost() {
-        return super.getCost() + 0.7; // Costo de la crema
+        return super.getCost() + 0.2; // Costo de la crema
     }
 }
