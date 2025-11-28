@@ -33,9 +33,9 @@ Principios SOLID:
 
 ## ¿Cuándo usar este patrón?
 
-**Estructuras Jerárquicas**: Cuando se necesita representar jerarquías de objetos donde las partes se componen de partes más pequeñas (ej. sistemas de archivos, organigramas, estructuras de menús, componentes de interfaz gráfica).
-**Tratamiento Uniforme**: Cuando los clientes necesitan ignorar si están tratando con objetos individuales o con grupos de objetos (composiciones).
-**Operaciones Recursivas**: Cuando se requiere ejecutar operaciones que deben propagarse recursivamente a través de la jerarquía (ej. calcular el precio total, pintar un nodo del árbol).
+- **Estructuras Jerárquicas**: Cuando se necesita representar jerarquías de objetos donde las partes se componen de partes más pequeñas (ej. sistemas de archivos, organigramas, estructuras de menús, componentes de interfaz gráfica).
+- **Tratamiento Uniforme**: Cuando los clientes necesitan ignorar si están tratando con objetos individuales o con grupos de objetos (composiciones).
+- **Operaciones Recursivas**: Cuando se requiere ejecutar operaciones que deben propagarse recursivamente a través de la jerarquía (ej. calcular el precio total, pintar un nodo del árbol).
 
 ## Reto
 
@@ -44,4 +44,4 @@ Para poner en práctica el patrón Composite, consulta el [README del reto](./re
 ## Recursos Adicionales
 
 - [Refactoring Guru - Composite Pattern](https://refactoring.guru/design-patterns/composite)
-- [Source Making - Composite Pattern](https://sourcemaking.com/design_patterns/composite )
+- [Source Making - Composite Pattern](https://sourcemaking.com/design_patterns/composite)
