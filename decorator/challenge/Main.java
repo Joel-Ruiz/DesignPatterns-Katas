@@ -1,4 +1,4 @@
-package decorator.reto;
+package decorator.challenge;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,7 +17,5 @@ public class Main {
         Beverage customCoffee = new MilkAndWhipCoffee();
         System.out.println("Pedido 3: " + customCoffee.getDescription() + " | Costo: $" + customCoffee.getCost()); // Café Base, con Leche, con Crema Batida | Costo: $3.2
 
-        // 4. ¿Cómo creamos un Café *solo* con Crema Batida y *sin* Leche usando MilkAndWhipCoffee?
-        // No es posible, necesitamos otra clase (WhipCoffeeAndNoMilk)... ¡Y el problema crece!
     }
 }

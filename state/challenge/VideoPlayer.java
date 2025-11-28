@@ -1,4 +1,4 @@
-package state.reto;
+package state.challenge;
 
 /**
  * Clase que simula un reproductor de video.

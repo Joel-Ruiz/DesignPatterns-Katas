@@ -1,4 +1,4 @@
-package decorator.reto;
+package decorator.challenge;
 
 public class WhipCoffee extends Coffee {
     @Override

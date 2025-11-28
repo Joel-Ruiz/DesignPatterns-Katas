@@ -1,11 +1,11 @@
-package composite.reto;
+package composite.challenge;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class ProductBox {
-    private final String name;
-    private final List<Object> children = new ArrayList<>();
+    private String name;
+    private List<Object> children = new ArrayList<>();
 
     public ProductBox(String name) {
         this.name = name;

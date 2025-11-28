@@ -1,4 +1,4 @@
-package template_method.reto;
+package template_method.challenge;
 
 public class CsvDataMiner {
     

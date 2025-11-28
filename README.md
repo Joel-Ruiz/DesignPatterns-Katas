@@ -45,6 +45,6 @@ kata-name/
 - [Source Making - Design Patterns](https://sourcemaking.com/design_patterns)
 - [Design Patterns: Elements of Reusable Object-Oriented Software](https://en.wikipedia.org/wiki/Design_Patterns) (Gang of Four)
 
-## Basado En
+## Creditos
 
-Este repositorio esta basado en: (https://github.com/luisburgos/design_patterns_katas.git)
+La estructura e ideade este repositorio esta basada en: (https://github.com/luisburgos/design_patterns_katas.git)

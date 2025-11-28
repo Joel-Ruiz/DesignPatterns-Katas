@@ -1,4 +1,4 @@
-package composite.reto;
+package composite.challenge;
 
 public class Product {
     private String name;
